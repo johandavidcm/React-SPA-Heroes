@@ -52,7 +52,7 @@ export const SearchScreen = ({ history }) => {
                 </div>
                 <div className="col-7">
                     <h4>Results:</h4>
-                    <h3 />
+                    
                     {
                         heroesFiltered.map(hero => (
                             <HeroCard
